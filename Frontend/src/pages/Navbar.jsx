@@ -11,12 +11,12 @@ const Navbar = () => {
     return (<>
         <nav className="nav">
 
-            <button onClick={() => navigate("/feed")}> <Home /></button>
-            <button onClick={() => navigate("/feed")}> <LogIn />  </button>
+            <button onClick={() => navigate("/feed")} > <Home/></button>
             <button onClick={() => navigate("/create-post")}> <Plus/></button>
-            <button onClick={() => navigate("/feed")}> <Search /></button>
+            <button onClick={() => navigate("/feed")}> <Search /></button>      
+            <button onClick={() => navigate("/feed")}> <LogIn />  </button>
 
-            <button><User /></button>
+            <button><User /></button> 
 
         </nav>
     </>
@@ -24,3 +24,6 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+ 
